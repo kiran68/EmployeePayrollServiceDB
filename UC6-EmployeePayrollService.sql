@@ -38,5 +38,7 @@ select * from employee_payroll where start between cast('2019-01-01' as date) an
 
 --------------------------- UC6 -------------------------
  update employee_payroll set gender = 'M' where name = 'kiran' or name = 'Altaf';
+ select * from employee_payroll;
+ 
 
 
