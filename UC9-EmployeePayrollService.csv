@@ -1,0 +1,14 @@
+Field,Type,Null,Key,Default,Extra
+id,int,NO,PRI,NULL,auto_increment
+name,varchar(50),NO,,NULL,
+gender,varchar(20),YES,,NULL,
+phone,mediumtext,YES,,NULL,
+department,varchar(200),NO,,NULL,
+address,varchar(200),YES,,NULL,
+salary,double,NO,,NULL,
+start,date,NO,,NULL,
+basic_pay,double,YES,,NULL,
+deduction,double,YES,,NULL,
+taxable_pay,double,YES,,NULL,
+income_tax,double,YES,,NULL,
+net_pay,double,YES,,NULL,
